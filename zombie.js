@@ -64,7 +64,7 @@ if (userWhere.toUpperCase() == "AIRPORT") {
         score = score - 5
         alert("You find a flashlight in an abandoned room but shine it right in the face of a zombie who chomps your face off-YOU DIED: (0 Points) TRY AGAIN!");
     }
-} else if (userWhere == "NAVAL BASE") {
+} else if (userWhere.toUpperCase() == "NAVAL BASE") {
 
     confirm("We arrived safely at the Naval Base! But we need a plan!");
     var userNavy1 = "no input yet";
